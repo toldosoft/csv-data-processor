@@ -68,6 +68,13 @@ const UploadPage = () => {
   };
   return (
     <div className="max-w-lg mx-auto my-10 p-4 border rounded shadow-lg">
+      <div className="flex justify-center mb-4">
+        <img
+          src="/images/logo-color.png"
+          alt="Logo"
+          className="h-16 w-16 object-contain hover:scale-110 transition-transform duration-300 ease-in-out"
+        />
+      </div>
       <h1 className="text-2xl font-semibold text-center mb-4">
         CSV Data Processor
       </h1>
