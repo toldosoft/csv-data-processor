@@ -1,5 +1,7 @@
+// tsconfig.json
 {
   "compilerOptions": {
+    "typeRoots": ["./types", "./node_modules/@types"],
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
